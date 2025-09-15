@@ -1,0 +1,212 @@
+.artesanal {
+    background: #fff;
+    margin: 2rem auto;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(25,118,210,0.07);
+    text-align: center;
+}
+.artesanal h2 {
+    color: #1976d2;
+    margin-bottom: 1rem;
+}
+.artesanal p {
+    font-size: 1.1rem;
+    color: #333;
+}
+.galeria-autos {
+    background: #fff;
+    margin: 2rem auto;
+    max-width: 900px;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(25,118,210,0.07);
+    text-align: center;
+}
+.galeria-autos h2 {
+    color: #1976d2;
+    margin-bottom: 1.5rem;
+}
+.autos-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.auto-item {
+    background: #e3f2fd;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px rgba(25,118,210,0.07);
+    padding: 1rem;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.auto-item:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 6px 16px rgba(25,118,210,0.15);
+}
+.auto-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.auto-item p {
+    color: #1976d2;
+    font-weight: 500;
+    margin: 0.5rem 0 0 0;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #e3f2fd 60%, #b3e5fc 100%);
+    color: #222;
+}
+.hero {
+    background: #1976d2;
+    color: #fff;
+    padding: 3rem 1rem 2rem 1rem;
+    text-align: center;
+    border-radius: 0 0 32px 32px;
+    box-shadow: 0 2px 12px rgba(25,118,210,0.08);
+}
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+}
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+.hero button {
+    background: #fff;
+    color: #1976d2;
+    border: none;
+    padding: 1rem 2.2rem;
+    border-radius: 24px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 2px 8px rgba(25,118,210,0.08);
+    transition: background 0.2s, color 0.2s;
+}
+.hero button:hover {
+    background: #1976d2;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.features {
+    background: #fff;
+    margin: 2rem auto;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(25,118,210,0.07);
+}
+.features h2 {
+    color: #1976d2;
+    margin-bottom: 1rem;
+}
+.features ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+}
+.features li {
+    margin-bottom: 0.7rem;
+    padding-left: 1.2rem;
+    position: relative;
+}
+.features li::before {
+    content: '✔';
+    color: #1976d2;
+    position: absolute;
+    left: 0;
+}
+.testimonios {
+    background: #e3f2fd;
+    margin: 2rem auto;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(25,118,210,0.05);
+    text-align: center;
+}
+.testimonios h2 {
+    color: #1976d2;
+    margin-bottom: 1rem;
+}
+.testimonios blockquote {
+    font-style: italic;
+    margin: 1rem auto;
+    background: #fff;
+    border-left: 4px solid #1976d2;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-width: 400px;
+}
+.testimonios span {
+    display: block;
+    color: #1976d2;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+.precios {
+    background: #fff;
+    margin: 2rem auto;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(25,118,210,0.07);
+    text-align: center;
+}
+.precios h2 {
+    color: #1976d2;
+    margin-bottom: 1rem;
+}
+.precio-card {
+    background: #e3f2fd;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 4px rgba(25,118,210,0.07);
+    display: inline-block;
+    margin-top: 1rem;
+}
+.precio-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: #1976d2;
+}
+.precio {
+    font-size: 2rem;
+    color: #388e3c;
+    font-weight: bold;
+    margin: 0.5rem 0 1rem 0;
+}
+.precio-card button {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.precio-card button:hover {
+    background: #1565c0;
+}
+footer {
+    background: #1976d2;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem 1rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    border-radius: 16px 16px 0 0;
+}
